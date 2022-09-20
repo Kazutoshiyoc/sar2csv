@@ -5,6 +5,14 @@ Clone via HTTPS
 ```
 git clone https://github.com/Kazutoshiyoc/sar2csv.git
 ```
+
+Resolve dependency
+```
+dnf/apt install sysstat
+systemctl enable sysstat
+systemctl start sysstat
+```
+
 setup cron
 ```
 crontab -e
